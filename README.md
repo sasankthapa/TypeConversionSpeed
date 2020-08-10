@@ -12,7 +12,7 @@ Currently written in java and javascript with the following result in a mint VM:
       Using Integer.parseInt() : 0.025039ms
       Using Integer.valueOf() : 0.017098ms
     
-  For Javascript:
+  For Javascript: (nodejs)
   
       'Int to String'
       Using String() : 0.012296999804675579ms
@@ -21,3 +21,11 @@ Currently written in java and javascript with the following result in a mint VM:
       'String to Int'
       Using Number() : 0.005277000367641449ms
       Useing parseInt() : 0.004111000336706638ms
+  
+  For Python:
+
+      'Int to String'
+      using str() is 0.001192ms
+
+      'String to Int'
+      using int() is 0.016212ms
